@@ -1,0 +1,39 @@
+# 构建产物与本地文件（不要提交）
+
+# 可执行文件 / 库 / 图标（均可由源码重新生成）
+*.exe
+*.dll
+*.ico
+*.pdb
+*.mdb
+
+# PCL 派生的差分补丁（版权/许可原因不提交，按 docs/BUILD.md 在本地生成）
+src/Patch.dat
+*.dat
+
+# 构建输出
+out/
+bin/
+obj/
+
+# 测试产物
+tests/.test-artifacts/
+tests/UiTool.exe
+tests/DragSource.exe
+runs/
+*.bak
+
+# PCL 二进制（绝不要提交）
+Plain Craft Launcher 2.exe
+PCL-patched.exe
+official/
+previous/
+dnlib/
+dnlib.zip
+*.nupkg
+
+# 系统/IDE
+.vs/
+.idea/
+Thumbs.db
+desktop.ini
